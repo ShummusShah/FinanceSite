@@ -6,10 +6,12 @@
 
 
 .tabs__sidebar {
-	width: 220px;
+	width: 250px;
+	flex-shrink: 0;
 	background: #cccccc;
 	font-size: 18px;
 }
+
 
 
 .tabs__button {
@@ -67,5 +69,13 @@ padding-bottom: 1px solid #cccccc;
 
 
 
+
+@media only screen and (max-width: 600px) {
+	.tabs__sidebar {
+		width: 150px;
+		flex-shrink: 10;
+		background: #cccccc;
+		font-size: 18px;
+	}
 
 
