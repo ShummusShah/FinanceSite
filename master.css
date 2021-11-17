@@ -7,7 +7,6 @@
 
 .tabs__sidebar {
 	width: 220px;
-	flex-shrink: 0;
 	background: #cccccc;
 	font-size: 18px;
 }
