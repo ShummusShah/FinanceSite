@@ -72,7 +72,15 @@ padding-bottom: 1px solid #cccccc;
 
 @media only screen and (max-width: 600px) {
 	.tabs__sidebar {
-		width: 150px;
-		flex-shrink: 10;
+		width: 100px;
+		flex-shrink: 0;
 		background: #cccccc;
-		font-size: 18px;}}
+		font-size: 12px;}}
+
+
+
+@media only screen and (max-width: 600px) {
+	.tabs__content {
+		padding: 15px;
+		font-size: 13px;
+	}}
